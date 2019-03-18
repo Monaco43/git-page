@@ -1,0 +1,93 @@
+.live-color {
+    width: 200px;
+    height: 100px;
+    padding: 16px;
+    background-color: rgba(47, 218, 184, 0.884);
+    overflow: hidden;
+    bottom: -132px;
+    float: left;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.live-img:hover .live-color {
+    transform: translateY(-130px);
+}
+
+.live-img {
+    width: 232px;
+    height: 280px;
+    margin: 0 5px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.live-share > div > i {
+    color: white;
+}
+
+.live-img img {
+    width: 232px;
+    height: 280px;
+    float: left;
+    position: absolute;
+}
+
+.live-photo {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.live-info {
+    text-align: center;
+}
+
+.live-info span {
+    font-size: 20px;
+    color: white;
+}
+
+.live-info p {
+    margin: 10px 0;
+}
+
+.live-share-facebook {
+    width: 30px;
+    height: 30px;
+    background-color: #3b5998;
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+    line-height: 30px;
+}
+
+.live-share-qq {
+    width: 30px;
+    height: 30px;
+    background-color: #00acee;
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+    line-height: 30px;
+}
+
+.live-share-tumblr {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+    line-height: 30px;
+}
+
+.live-share-weibo {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin-left: 15px;
+    float: left;
+    line-height: 30px;
+}

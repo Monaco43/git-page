@@ -1,0 +1,766 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .clearfloat{
+    overflow: hidden;
+} */
+
+.about-top {
+    background-image: url("../images/inner1.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+    background-size: 100%;
+}
+
+.about-container1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about1>p {
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+}
+
+.abouthome {
+    position: absolute;
+    float: left;
+    top: 72%;
+    font-size: 17px;
+    color: #2fdab8;
+    /* margin-left: 170px; */
+    margin-bottom: 200px;
+}
+
+.abouthome a {
+    color: #2fdab8;
+    text-decoration: none;
+}
+
+.about-shutiao {
+    position: absolute;
+    float: left;
+    top: 72%;
+    left: 125px;
+    margin-left: 50px;
+    color: white;
+}
+
+.about-container2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ABOUT {
+    position: absolute;
+    float: left;
+    top: 72%;
+    font-size: 17px;
+    color: white;
+    margin-left: 45px;
+}
+
+.about-tu1 {
+    float: left;
+    margin-top: 80px;
+}
+
+.about-tu1 img {
+    width: 585px;
+    height: 400px;
+}
+
+.about-wenzi {
+    word-break: break-all;
+    letter-spacing: 2px;
+    line-height: 30px;
+    width: 500px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.about-jiacu {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.about-bianda {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                .about-fall {
+                                                    width: 100%;
+                                                    position: relative;
+                                                }
+
+                                                .about-fall1 {
+                                                    width: 550px;
+                                                    height: 375px;
+                                                    float: left;
+                                                    margin-top: 50px;
+                                                    position: relative;
+                                                    overflow: hidden;
+                                                }
+
+                                                .about-fall1 img {
+                                                    width: 576px;
+                                                    height: 300px;
+                                                    margin-left: -27px;
+                                                    float: left;
+                                                    transition: 0.5s;
+                                                }
+
+                                                .about-fall1-bai1 {
+                                                    width: 470px;
+                                                    height: 200px;
+                                                    position: relative;
+                                                    top: 50px;
+                                                    left: 20px;
+                                                    border: 3px solid white;
+                                                    transition: 0.5s;
+                                                    opacity: 0;
+                                                    font-size: 20px;
+                                                }
+
+                                                .about-fall2-bai1 {
+                                                    width: 470px;
+                                                    height: 200px;
+                                                    position: relative;
+                                                    top: 50px;
+                                                    left: 25px;
+                                                    border: 3px solid white;
+                                                    transition: 0.5s;
+                                                    opacity: 0;
+                                                    font-size: 20px;
+                                                }
+
+                                                .about-fall1-bai1-wenzi {
+                                                    width: 470px;
+                                                    height: 27px;
+                                                    float: left;
+                                                    color: white;
+                                                    margin-top: -190px;
+                                                    margin-left: 200px;
+                                                }
+
+                                                .about-fall2-bai1-wenzi {
+                                                    width: 470px;
+                                                    height: 27px;
+                                                    float: left;
+                                                    color: white;
+                                                    margin-top: -190px;
+                                                    margin-left: 200px;
+                                                }
+
+                                                .about-fall1:hover .about-fall1-bai1 {
+                                                    transform: translate(15px, 0);
+                                                    opacity: 1;
+                                                }
+
+                                                .about-fall2:hover .about-fall2-bai1 {
+                                                    transform: translate(15px, 0);
+                                                    opacity: 1;
+                                                }
+
+                                                .about-fall1:hover>img {
+                                                    transform: translate(25px);
+                                                }
+
+                                                .about-fall2:hover>img {
+                                                    transform: translate(25px);
+                                                }
+
+                                                .about-fall2 {
+                                                    width: 576px;
+                                                    height: 375px;
+                                                    float: left;
+                                                    margin-top: 50px;
+                                                    position: relative;
+                                                    margin-left: 60px;
+                                                    overflow: hidden;
+                                                }
+
+                                                .about-fall2 img {
+                                                    width: 603px;
+                                                    height: 300px;
+                                                    float: left;
+                                                    margin-left: -27px;
+                                                    transition: 0.5s;
+                                                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gwh1 {
+    position: relative;
+    width: 184px;
+    height: 35px;
+    float: left;
+    left: 285px;
+    top: -200px;
+    font-size: 30px;
+    color: white;
+}
+
+.gwh2 {
+    position: relative;
+    left: 287px;
+    top: -200px;
+    width: 184px;
+    height: 35px;
+    float: left;
+    font-size: 30px;
+    color: white;
+}
+
+.gwh3 {
+    color: red;
+}
+
+.about-container3 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about-team {
+    width: 100%;
+    height: 530px;
+    background-color: rgb(247, 247, 247);
+}
+
+.about-team1 {
+    width: 1200px;
+    height: 150px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.about-team2 {
+    width: 1200px;
+    height: 350px;
+}
+
+.about-team2 img {
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.about-container4 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about-sale {
+    width: 100%;
+    height: 400px;
+}
+
+.about-sale-col1 {
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+
+.about-sale-col1 img {
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+
+.about-sale-col2 {
+    width: 600px;
+    height: 400px;
+    background-color: #2fdab8;
+    float: left;
+}
+
+.about-sale-col2-erzi {
+    width: 550px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-top: 55px;
+}
+
+.about-sale-col2-erzi-row1 {
+    width: 350px;
+    height: 40px;
+    float: left;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.about-sale-col2-erzi-row2 {
+    width: 500px;
+    height: 70px;
+    float: left;
+    font-size: 18px;
+    color: gray;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+.about-sale-col2-erzi-row3 {
+    width: 550px;
+    height: 155px;
+    float: left;
+}
+
+.about-sale-col2-erzi-row3-col1 {
+    width: 150px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+.about-sale-col2-erzi-row3-col2 {
+    width: 150px;
+    height: 100px;
+    margin-left: 18px;
+    margin-top: 30px;
+    float: left;
+}
+
+.about-sale-col2-erzi-row3-col3 {
+    width: 150px;
+    height: 100px;
+    margin-left: 18px;
+    margin-top: 30px;
+    float: left;
+}
+
+.about-container5 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about-what {
+    width: 100%;
+    height: 1173px;
+}
+
+.about-what-row1 {
+    width: 1200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 200px;
+}
+
+.about-what-row2 {
+    width: 400px;
+    height: 523px;
+    float: left;
+    overflow: hidden;
+}
+
+.about-what-col1 {
+    width: 320px;
+    height: 512px;
+    float: left;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.about-what-col1 img {
+    width: 350px;
+    height: 512px;
+    float: left;
+    margin-left: -27px;
+    transition: 0.5s;
+}
+
+.about-what-col1-bai1 {
+    width: 200px;
+    height: 415px;
+    position: relative;
+    top: 50px;
+    left: 45px;
+    border: 3px solid white;
+    transition: 0.5s;
+    opacity: 0;
+    font-size: 20px;
+}
+
+.about-what-col2-bai1 {
+    width: 535px;
+    height: 200px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+    border: 3px solid white;
+    transition: 0.5s;
+    opacity: 0;
+    font-size: 20px;
+}
+
+.about-what-col2-bai2 {
+    width: 535px;
+    height: 200px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+    border: 3px solid white;
+    transition: 0.5s;
+    opacity: 0;
+    font-size: 20px;
+}
+
+.about-what-col1-bai1-wenzi {
+    width: 200px;
+    height: 20px;
+    float: left;
+    color: white;
+    margin-left: 65px;
+    margin-top: -430px;
+}
+
+.about-what-col2-bai1-wenzi {
+    width: 200px;
+    height: 25px;
+    float: left;
+    color: white;
+    margin-left: 345px;
+    margin-top: 110px;
+}
+
+.about-what-col2-bai2-wenzi {
+    width: 200px;
+    height: 25px;
+    float: left;
+    color: white;
+    margin-left: 345px;
+    margin-top: 110px;
+}
+
+.about-what-col1:hover .about-what-col1-bai1 {
+    transform: translate(15px, 0);
+    opacity: 1;
+}
+
+.about-what-col2:hover .about-what-col2-bai1 {
+    transform: translate(15px, 0);
+    opacity: 1;
+}
+
+.about-what-col2:hover .about-what-col2-bai2 {
+    transform: translate(15px, 0);
+    opacity: 1;
+}
+
+.about-what-col1:hover>img {
+    transform: translate(25px);
+}
+
+.about-what-col2:hover>img {
+    transform: translate(25px);
+}
+
+.about-what-col2:hover>img {
+    transform: translate(25px);
+}
+
+.gwh4 {
+    position: relative;
+    width: 80px;
+    height: 35px;
+    float: left;
+    left: 150px;
+    top: -430px;
+    font-size: 30px;
+    color: white;
+}
+
+.gwh5 {
+    color: red;
+}
+
+.about-what-col2 {
+    width: 670px;
+    height: 512px;
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.about-what-col2 img {
+    width: 720px;
+    height: 250px;
+    margin-left: -50px;
+    margin-bottom: -200px;
+    transition: 0.5s;
+}
+
+.about-what-row3 {
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.about-what-row3 img {
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-top: 50px;
+}
+
+.about-container6 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about-shop {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 250px;
+}
+
+.about-shop-wenzi {
+    width: 1168px;
+}
+
+.about-what-middle {
+    width: 100%;
+}
+
+.about-now {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    background-color: #2fdab8;
+    /* margin: 0 auto; */
+    font-size: 20px;
+    line-height: 45px;
+    color: white;
+}
+
+.about-container7 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about-sale-col2-erzi-row3-col1-row1 {
+    width: 150px;
+    height: 33px;
+    float: left;
+    background-color: yellow;
+}
+
+.about-sale-col2-erzi-row3-col1-row2 {
+    width: 150px;
+    height: 33px;
+    float: left;
+    text-align: center;
+    line-height: 33px;
+}
+
+.about-sale-col2-erzi-row3-col1-row3 {
+    width: 150px;
+    height: 34px;
+    float: left;
+    text-align: center;
+    line-height: 33px;
+    font-size: 35px;
+}
+
+.about-sale-col2-erzi-row3-col2-row1 {
+    width: 150px;
+    height: 33px;
+    float: left;
+    background-color: yellow;
+}
+
+.about-sale-col2-erzi-row3-col2-row2 {
+    width: 150px;
+    height: 33px;
+    float: left;
+    text-align: center;
+    line-height: 33px;
+}
+
+.about-sale-col2-erzi-row3-col2-row3 {
+    width: 150px;
+    height: 34px;
+    float: left;
+    text-align: center;
+    line-height: 33px;
+    font-size: 35px;
+}
+
+.about-sale-col2-erzi-row3-col3-row1 {
+    width: 150px;
+    height: 33px;
+    float: left;
+    background-color: yellow;
+}
+
+.about-sale-col2-erzi-row3-col3-row2 {
+    width: 150px;
+    height: 33px;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+}
+
+.about-sale-col2-erzi-row3-col3-row3 {
+    width: 150px;
+    height: 34px;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    font-size: 35px;
+}

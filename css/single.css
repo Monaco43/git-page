@@ -1,0 +1,127 @@
+.responsive_tabs_agileits {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.resp-items {
+    height: 60px;
+    overflow: hidden;
+}
+
+.active {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.responsive_tabs_agileits .resp-item {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 30px;
+    padding: 10px 50px 10px 50px;
+    width: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.resp-table-content {
+    border: 1px solid #ccc;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.resp-table-content .description {
+    height: 300px;
+}
+
+.resp-table-content .information {
+    height: 300px
+}
+
+.resp-table-content .review {
+    height: 100px;
+}
+
+.resp-table-content .title {
+    letter-spacing: 2px;
+    margin: 30px 0 20px 40px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.resp-table-content .content {
+    letter-spacing: 2px;
+    height: 200px;
+    margin-left: 35px;
+    font-family: "微软雅黑";
+    text-align: left;
+    line-height: 30px;
+}
+
+.review-left {
+    float: left;
+    margin: 30px 20px 30px 40px;
+}
+
+.review-clearfix {
+    overflow: hidden;
+}
+
+.review-left img {
+    width: 150px;
+    height: 170px;
+}
+
+.review-right {
+    width: 900px;
+    float: left;
+}
+
+.review-right .content {
+    margin-top: 20px;
+}
+
+.review-content h3 {
+    margin-left: 40px;
+}
+
+.review-content{
+    padding-bottom: 105px;
+}
+
+.content-input-subject {
+    font-size: 20px;
+    width: 500px;
+    height: 30px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+.content-input-content {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 1050px;
+    height: 150px;
+}
+
+.review-content-submit {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 30px;
+    background-color: #12fccd;
+    margin-top: 20px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+}

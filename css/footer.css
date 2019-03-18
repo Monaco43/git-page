@@ -1,0 +1,257 @@
+
+.sec-footer{
+    width: 100%;
+    background-color: white;
+}
+
+.sec-footer-box{
+    width: 1000px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+.sec-col{
+    width: 230px;
+    height: 100px;
+    margin: 28px;
+    margin-left: 12px;
+    margin-right: 0px;
+    float: left;
+    padding-left: 8px;
+    padding-top: 8px;
+    background-color: white;
+}
+
+.sec-icon{
+    width: 80px;
+    height: 80px;
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 10px;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.sec-icon:hover{
+    background-color: #2fdab8;
+}
+
+.sec-icon li{
+    line-height: 80px;
+}
+
+.sec-title{
+    margin-top: 5px;
+    width: 140px;
+    float: left;
+    color: #2fdab8;
+}
+
+.sec-text{
+    float: left;
+    width: 140px;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+.footerbox{
+    width: 100%;
+    height: 630px;
+    background-color: black;
+}
+
+.footer-first{
+    padding: 10px;
+}
+
+.foot-container{
+    margin-top: 50px;
+}
+
+.real-footer{
+    width: 80%;
+    margin: 70px auto;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: grey;
+    margin-bottom: 0px;
+}
+
+.footer-center > div {
+    width: 260px;
+    float: left;
+    margin-left: 8px;
+    /* border: 2px solid yellow; */
+}
+
+.footer-img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+}
+
+.footer-book-center{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-center{
+    width: 1100px;
+    background-color: white;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-text{
+    color: grey;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.footer-e-icon{
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-color: #2fdab8;
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+.footer-head{
+    font-size: 35px;
+    color: white;
+    font-weight: 300;
+    
+}
+
+.footer-title{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.footer-shoppy{
+    width: 200px;
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    float: left;
+    color: white;
+}
+
+.floatleft{
+    float: left;
+}
+
+.footer-foot{
+    width: 90%;
+    border-top: 1px solid grey;
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding-top: 70px;
+}
+
+
+/* 搜索栏样式 */
+/* .search-box {
+    width: 100%;
+    min-width: 1070px;
+    height: 46px;
+    background-color: white;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+
+
+.footer-search-square {
+    float: left;
+    width: 276px;
+    background-color: white;
+    min-width: 200px;
+    /* padding: 10px; */
+    border: 1px solid #ddd;
+    margin-left: 200px;
+}
+
+.footer-search-icon{
+    float: left;
+    width: 46.5px;
+    height: 46.5px;
+    background-color: #2fdab8;
+    color: white;
+    line-height: 42.5px;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.footer-search-square input[type="text"]{
+    width: 252px;
+    height: 100%;
+    outline:none;
+    font-size: 18px;
+    color: white;
+    padding: 12px;
+    border: 0;
+    float: left;
+    background-color: #010101;
+}
+.footer-search-square input[type="text"]:focus {
+    border-style: none;
+}
+
+
+.footer-background{
+    margin: 0;
+    width: 30px;
+    margin-top: 6px;
+    margin-left: 3%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    font-size: 20px;
+    color: white;
+}
+
+.footer-background a > li {
+    color: white;
+}
+.footer-facebook{
+    background-color: darkblue;
+}
+
+.footer-qq{
+    background-color: blue;
+}
+
+.footer-tumblr{
+    background-color: orangered;
+}
+
+.footer-weibo{
+    background-color: red;
+}
+
+
+
+
+

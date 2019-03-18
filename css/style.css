@@ -1,0 +1,324 @@
+   * {
+       margin: 0;
+       padding: 0;
+   }
+   
+   body {
+       /* width: 100%; */
+       /* text-align: center */
+   }
+   
+   .hide {
+       display: none;
+   }
+   
+   .white {
+       background-color: white;
+   }
+   
+   .gray {
+       background-color: gray;
+   }
+   
+   .active {
+       display: block;
+   }
+   
+   .banner-nav {
+       top: 600px;
+       left: 45%;
+       position: absolute;
+       overflow: hidden;
+   }
+   
+   .banner-style {
+       margin-top: 200px;
+   }
+   
+   .index-img {
+       overflow: hidden;
+   }
+   
+   .banner-point {
+       float: left;
+       margin: 10px;
+       border-radius: 50%;
+       width: 15px;
+       height: 15px;
+       cursor: pointer;
+   }
+   
+   a {
+       color: white;
+   }
+   
+   a:link {
+       text-decoration: none;
+   }
+   
+   a:visited {
+       text-decoration: none;
+   }
+   
+   a:hover {
+       text-decoration: none !important;
+       cursor: pointer;
+   }
+   
+   a:active {
+       text-decoration: none;
+   }
+   
+   ul li {
+       list-style-type: none;
+   }
+   
+   .blue {
+       background-color: #2fdab8;
+   }
+   
+   .red {
+       background-color: #fc636b;
+   }
+   
+   .center {
+       margin: 0 auto；
+   }
+   
+   #home-banner {
+       height: 500px;
+       margin-bottom: 100px;
+       background-image: url('../images/banner1.jpg');
+       background-repeat: no-repeat;
+   }
+   
+   .home-banner-left {
+       background: rgba(0, 0, 0, 0);
+       width: 100px;
+       height: 100%;
+       float: left;
+   }
+   
+   .home-banner-right {
+       background: rgba(0, 0, 0, 0);
+       width: 100px;
+       height: 100%;
+       float: right;
+   }
+   
+   .home-banner-right>span {
+       top: 40%;
+       color: gray;
+       width: 100px;
+       font-size: 40px;
+       text-align: center;
+   }
+   
+   .home-banner-left>span {
+       color: gray;
+       width: 100px;
+       top: 40%;
+       font-size: 40px;
+       text-align: center;
+   }
+   /* chedule-bottom */
+   
+   .schedule-bottom {
+       height: 400px;
+   }
+   
+   .schedule-bottom-left {
+       float: left;
+       width: 50%;
+       height: 400px;
+       background-image: url("../images/mid.jpg");
+       background-repeat: no-repeat;
+   }
+   
+   .schedule-bottom-right {
+       height: 400px;
+       float: left;
+       background: #2fdab8;
+       width: 50%;
+   }
+   
+   .schedule-bottom-right-content {
+       background: white;
+       margin: 10px 70px 10px 30px;
+       margin-top: 20px;
+       width: 90%;
+       height: 80%;
+       padding-top: 40px;
+   }
+   
+   .schedule-bottom-right-content-title {
+       letter-spacing: 1px;
+       text-align: center;
+       font-weight: 700;
+       font-family: 'Open Sans', sans-serif;
+       font-size: 25px;
+   }
+   
+   .schedule-bottom-right-content>p {
+       margin-left: 30px;
+       word-break: break-all;
+       font-size: 15px;
+       letter-spacing: 3px;
+       text-align: left;
+   }
+   
+   .w3l_schedule_bottom_right_grid1 i {
+       margin-left: 35%;
+   }
+   
+   .w3l_schedule_bottom_right_grid1 {
+       float: left;
+       margin-top: 30px;
+       margin-left: 100px;
+   }
+   
+   .w3l_schedule_bottom_right_grid1 h3 {
+       text-align: center;
+   }
+   
+   .w3l_schedule_bottom_right_grid1>h5 {
+       font-size: 20px;
+       text-align: center;
+   }
+   
+   .agile_last_double_sectionw3ls {
+       width: 100%;
+       margin-top: 40px;
+       overflow: hidden;
+   }
+   
+   .agile_last_double_sectionw3ls .left {
+       float: left;
+       background-image: url('../images/bot_1.jpg');
+       background-repeat: no-repeat;
+       width: 50%;
+       height: 400px;
+   }
+   
+   .agile_last_double_sectionw3ls .right {
+       width: 50%;
+       height: 400px;
+       background-repeat: no-repeat;
+       float: left;
+       background-image: url('../images/bot_2.jpg');
+   }
+   
+   .new_arrivals_agile_w3ls_info {
+       margin-top: 20px;
+       margin: auto;
+       clear: both;
+       width: 90%;
+       left: 5%;
+       height: 900px;
+       overflow: hidden;
+   }
+   
+   .new_arrivals_agile_w3ls_info h3 {
+       font-size: 40px;
+       text-align: center;
+       margin-top: 30px;
+   }
+   
+   .new_arrivals_agile_w3ls_info .title {
+       /* text-align: center;
+       float: left;
+       width: 200px;
+       margin: 30px 30px 10px 65px; */
+       text-align: center;
+       float: left;
+       width: 20%;
+       margin: 20px 2% 10px 2%;
+       padding: 50px 0px -10px 0px;
+       /* box-shadow: 0px 0px 10px 0px gray; */
+   }
+   
+   .new_arrivals_agile_w3ls_info .title a {
+       color: black;
+       font-weight: 40px;
+       font-size: 20px;
+       letter-spacing: 20px;
+   }
+   
+   .new_arrivals_agile_w3ls_info .row {
+       width: 100%;
+       margin-left: 20px;
+       overflow: hidden;
+   }
+   
+   .cel {
+       text-align: center;
+   }
+   
+   .new_arrivals_agile_w3ls_info .row .cel {
+       float: left;
+       width: 20%;
+       height: 320px;
+       margin: 20px 2% 10px 2%;
+       padding: 50px 0px -10px 0px;
+       box-shadow: 0px 0px 10px 0px gray;
+   }
+   
+   .quick-view {
+       background: black;
+       width: 100%;
+       font-size: 14px;
+       color: white;
+       line-height: 30px;
+       height: 30px;
+   }
+   
+   .quick-view a {
+       color: white;
+   }
+   
+   .quick-view:hover {
+       background-color: #2fdab8;
+   }
+   
+   .new_arrivals_agile_w3ls_info .row .cel img {
+       width: 150px;
+       margin-top: 40px;
+       height: 150px;
+   }
+   
+   .new_arrivals_agile_w3ls_info .row .cel .man-name {
+       color: red;
+       font-size: 15px;
+   }
+   
+   .product-dis-price {
+       font-weight: 100;
+       font-size: 20px;
+   }
+   
+   .row .cel img:hover {
+       transform: scale(1.5);
+       transition: 1s;
+   }
+   
+   .product-name {
+       margin-top: 10px;
+       font-size: 20px;
+       color: #fc636b;
+   }
+   
+   .product-price {
+       text-decoration: line-through;
+   }
+   
+   .product-buy {
+       color: white;
+       letter-spacing: 5px;
+       font-size: 20px;
+       background-color: #12fccd;
+   }
+   
+   .product-buy:hover {
+       font-size: 30px;
+       color: white;
+   }

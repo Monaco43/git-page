@@ -1,0 +1,309 @@
+/*man-head ���*/
+.man-head {
+    background-image: url("../images/inner1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    color: white;
+}
+.man-head-text a {
+    color: #2fdab8;
+}
+.head-big-text {
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.head-samll-text {
+    text-align: left;
+}
+.head-samll-text span {
+    margin: 0 20px;
+}
+
+
+.man-product{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*�ڶ�����man-nav*/
+
+.man-nav-left-public {
+    text-align: center;
+    margin-top: 30px;
+}
+.man-text-public {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-left-border {
+    width: 350px;
+    border: 1px solid gainsboro;
+
+}
+.man-classify h4>span {
+    color: #2fdab8;
+    font-size: 20px;
+}
+.man-classify h4{
+    background-color: gainsboro;
+}
+.men-center{
+    margin: 0 auto;
+    width: 1125px;
+}
+
+.man-nav-left {
+    width: 350px;
+    float: left;
+}
+.left-choice {
+    text-align: left;
+}
+.left-choice li {
+    padding-left: 50px;
+    line-height: 40px;
+}
+.left-choice input[type='radio'] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.left-choice input[type='submit'] {
+   border: 0;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+.man-text-public {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.nav-first {
+    text-align: left;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.nav-second {
+    padding: 5px;
+    text-align: left;
+    margin-left: 70px;
+    /*display: none;*/
+}
+.nav-first:hover ~ .nav-second{
+    width: 100px;
+    display: block;
+}
+.nav-third {
+    padding: 5px;
+    text-align: left;
+    margin-left: 90px;
+    display: none;
+}
+.nav-four {
+    padding: 5px;
+    text-align: left;
+    margin-left: 70px;
+    display: none;
+}
+.nav-second:hover ~ .nav-third{
+    width: 100px;
+    display: block;
+}
+.nav-second:hover {
+    display: block;
+}
+.nav-third:hover {
+    display: block;
+}
+.nav-angle {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: #2fdab8;
+    margin-top: 5px;
+    float: left;
+}
+
+
+/*�ڶ����ֵ��ұ�*/
+.man-nav-right {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.man-nav-right-top {
+    width: 720px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.nav-paixu {
+    float: left;
+}
+.nav-title {
+    font-size: 25px;
+}
+.man-nav-right span{
+    padding-right: 20px;
+    font-size: 20px;
+}
+.nav-xianshi {
+    float: left;
+    padding-left: 100px;
+}
+.nav-right-tup {
+    margin-top: 30px;
+}
+.djnz {
+    margin-top: 30px;
+}
+.djnz-tup {
+    float: left;
+}
+.djnz-wenzi{
+    float: left;
+    width: 462px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.djnz-wenzi p {
+    padding-top: 40px;
+    color: gray;
+}
+
+
+
+
+
+.nav-right-tab {
+    width: 720px;
+    overflow: hidden;
+    margin: 30px auto;
+    position: relative;
+    margin-bottom: 64px;
+    background-color: black;
+}
+.nav-right-tab ul {
+    width: 500%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.nav-right-tab li {
+    list-style: none;
+    width: 720px;
+    float: left;
+}
+.nav-right-tab img {
+    display: block;
+    width: 100%;
+}
+
+.nav-right-tab input {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 100;
+    cursor: pointer;
+    visibility: hidden;
+}
+.nav-right-tab label {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 14px;
+    z-index: 200;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    line-height: 20px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+/*��ӦͼƬ���ƶ�λ��ul�ƶ�*/
+input:nth-of-type(1):checked~ul {
+    transform: translateX(0);
+}
+input:nth-of-type(2):checked~ul {
+    transform: translateX(-720px);
+}
+input:nth-of-type(3):checked~ul {
+    transform: translateX(-1440px);
+}
+/*��λ*/
+.nav-right-tab input:nth-of-type(3),.nav-right-tab label:nth-of-type(3){
+    transform: translateX(-60px);
+}
+.nav-right-tab input:nth-of-type(2),.nav-right-tab label:nth-of-type(2){
+    transform: translateX(-90px);
+}
+.nav-right-tab input:nth-of-type(1),.nav-right-tab label:nth-of-type(1){
+    transform: translateX(-120px);
+}
+/*��ѡ�еĵ�ѡ������Ӧlabel*/
+.nav-right-tab input:nth-of-type(1):checked~label:nth-of-type(1) {
+    background-color: #2fdab8;
+    transform: translateX(-120px) scale(1.1);
+    color: white;
+    box-shadow: 0 0 5px #2fdab8;
+}
+.nav-right-tab  input:nth-of-type(2):checked~label:nth-of-type(2) {
+    background-color: #2fdab8;
+    transform: translateX(-90px) scale(1.1);
+    color: white;
+    box-shadow: 0 0 5px #2fdab8;
+}
+.nav-right-tab input:nth-of-type(3):checked~label:nth-of-type(3) {
+    background-color: #2fdab8;
+    transform: translateX(-60px) scale(1.1);
+    color: white;
+    box-shadow: 0 0 5px #2fdab8;
+}
+/*button*/
+.button-box {
+    width: 130px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    /*以上代码是用来给这个按钮定位置的*/
+    position: relative;
+}
+.button-side {
+    width: 130px;
+    height: 20px;
+    position: absolute;
+    opacity: 0;
+    border: 5px solid #2fdab8;
+}
+.button-center
+{
+    width: 130px;
+    height: 20px;
+    border: 5px solid #2fdab8;
+    background-color: #2fdab8;
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+.button-side:hover {
+    transform: translate(-10px,-10px);
+    transition: 1s;
+    width: 150px;
+    height: 40px;
+    opacity: 1;
+}

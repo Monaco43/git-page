@@ -1,0 +1,352 @@
+body {
+    min-width: 1070px;
+}
+
+.menubox{
+    width: 100%;
+    height: 74px;
+    background-color: black;
+}
+
+.menu-container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.menu-item{
+    float: left;
+    line-height: 69px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: white;
+    border-bottom: 5px solid black;
+}
+
+.menu-item:hover {
+    border-bottom-color: #2fdab8;
+}
+
+
+.menu-icon{
+    display: inline-block;
+    width: 220px;
+    height: 74px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 74px;
+    background-color: #2fdab8;
+    margin-left: 3%;
+}
+
+.menu-icon-button{
+    line-height: 74px;
+    color: black;
+}
+
+
+#hidden-man:hover ~.men-hidden{
+    display: block;
+}
+
+.men-hidden:hover {
+    display: block;
+}
+
+
+#women-hidden:hover ~.women-hidden{
+    display: block;
+}
+
+.women-hidden:hover {
+    display: block;
+}
+
+.men-hidden{
+    background-color: white;
+    padding: 20px;
+    display: none;
+    float: left;
+    position: absolute;
+    z-index: 500;
+    top: 212px;
+    left: 30%;
+}
+
+.women-hidden{
+    background-color: white;
+    padding: 20px;
+    display: none;
+    float: left;
+    position: absolute;
+    z-index: 500;
+    top: 212px;
+    left: 520px;
+}
+
+
+
+
+.men-hidden-img{
+    float: left;
+}
+
+.men-hidden-right-box{
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.men-hidden-right1{
+    width: 50px;
+    float: left;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.men-hidden-right1 > div {
+    line-height: 40px;
+    font-size: 16px;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 搜索栏样式 */
+.search-box {
+    width: 100%;
+    min-width: 1070px;
+    height: 46px;
+    background-color: white;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.search-square {
+    float: left;
+    width: 25%;
+    background-color: white;
+    min-width: 200px;
+    /* padding: 10px; */
+    border: 1px solid #ddd;
+    margin-left: 5%;
+}
+
+.search-icon{
+    width: 42.5px;
+    height: 42.5px;
+    background-color: #2fdab8;
+    color: white;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.search-icon a > li {
+    text-align: center;
+    font-size: 25px;
+    line-height: 42px;
+    color: white;
+    margin-left: 2px;
+}
+
+.search-square input[type="text"]{
+    width: 90%;
+    height: 100%;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    border: 0;
+    float: left;
+}
+
+
+.footer-search-square input[type="text"]{
+    width: 90%;
+    height: 100%;
+    outline:none;
+    font-size: 18px;
+    padding: 10px;
+    border: 0;
+    float: left;
+}
+
+.footer-search-square input[type="text"]:focus {
+    border-style: none;
+}
+
+.search-middle{
+    float: left;
+    margin-left: 6%;
+}
+
+
+
+
+
+
+
+
+
+/* 中部字体样式 */
+
+.eicon{
+    width: 60px;
+    height: 75px;
+    font-size: 48px;
+    line-height: 75px;
+    background-color: black;
+    margin-top: -18px;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+
+.shoppy{
+    font-size: 60px;
+    color: black;
+    float: left;
+    font-weight: 300;
+    margin-top: -24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 右边分享菜单样式 */
+
+.search-right{
+    float: right;
+    width: 20%;
+    min-width: 250px;
+    height: 46px;
+    margin-left: 15px;
+    line-height: 46px;
+}
+
+.right-text{
+    float: left;
+    font-size: 16px;
+}
+
+
+.icon-background{
+    margin: 0;
+    width: 30px;
+    margin-top: 6px;
+    margin-left: 3%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    font-size: 20px;
+    color: white;
+}
+
+.icon-background a > li {
+    color: white;
+}
+.icon-facebook{
+    background-color: darkblue;
+}
+
+.icon-qq{
+    background-color: blue;
+}
+
+.icon-tumblr{
+    background-color: orangered;
+}
+
+.icon-weibo{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/* 顶部栏样式 */
+
+.topbar{
+    width: 100%;
+    min-width: 1070px;
+    height: 32px;
+    background-color: black;
+}
+
+.topbox > li {
+    line-height: 32px;
+    font-size: 14px;
+    float: left;
+}
+
+.topbox{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.topicon{
+    color: #2fdab8;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.toptext{
+    width: 20%;
+    color: white;
+    margin-left: 20px;
+    border-right: 0.5px solid grey;
+}
+
+.toptext a:link{
+    color: white;
+}
+
+.toptext a:hover{
+    color: #2fdab8;
+}
+
+.toptext a:visited{
+    color: white;
+}
+
+
+
+
+
+

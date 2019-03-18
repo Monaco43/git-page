@@ -1,0 +1,304 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+.back{
+    margin: 0 auto;
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+    background-position: center;
+    background-size: 1600px;
+    background-image: url('../images/banner3.jpg')
+}
+.back-contact{
+    font-family: "微软雅黑";
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 20px;
+}
+.back-contactword{
+    padding-left: 280px;
+    margin-top: 40px;
+    font-family: "微软雅黑";
+    font-size: 17px;
+    font-weight: 40;
+    color: white;
+}
+.back-contactword a{
+    color: #2fdab8;
+}
+.back-contactword span{
+    margin-left:15px;
+    margin-right: 10px;
+}
+.contactA {
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+    margin: 100px auto;
+}
+
+.contactA2 {
+    width: 300px;
+    height: 152px;
+    position: relative;
+    padding: 16px 8px;
+    margin-left: 12px;
+    background-color: #171616;
+    float: left;
+}
+
+.contactA1 {
+    width: 300px;
+    height: 152px;
+    position: relative;
+    padding: 16px 8px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: #171616;
+    float: left;
+}
+.contactA3 {
+    width: 300px;
+    height: 152px;
+    position: relative;
+    padding: 16px 8px;
+    margin-right: 5px;
+    background-color: #171616;
+    float: left;
+}
+
+.contact-A1-1 {
+    width: 300px;
+    height: 46px;
+    position: absolute;
+    top: 40%;
+    margin-top: -45px;  
+}
+.contact-A1-1-icon{
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.contact-head {
+    font-family: "微软雅黑";
+    color: #2fdab8;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.contact-whiteWord  {
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 500;
+    text-align: center;
+    line-height: 20px;
+}
+.contact-whiteWord a:link{
+    color: white;
+    text-decoration: none;
+}
+.contact-whiteWord a:hover{
+    color: white;
+    text-decoration: none;
+}
+.contact-whiteWord a:visited{
+    color: white;
+    text-decoration: none; 
+}
+.contactB{
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 200px;
+    overflow: hidden;
+}
+
+.contactB1{
+    width: 470px;
+    height: 522px;
+    padding-top: 16px;
+    float: left;    
+}
+.contactB1-head{
+    font-weight: 700;
+    font-size: 30px;
+    color: #181919
+}
+.contactB1-head1{
+    font-weight: 300;
+}
+
+.contact-size{
+    width: 70px;
+    height: 70px;
+    font-size: 26px;
+    color:#0E0E0E;
+    border: 2px solid #ddd;
+    text-align: center;
+    line-height: 67px;
+    float: left;
+}
+.clearFloat:after {
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+  }
+  .clearFloat {
+    zoom: 1;
+  }
+
+.contactB1-icon{
+    width: 100%;
+    height: 70px;
+    margin-top: 45px;
+}
+.contactB1-text{
+    letter-spacing: 1px;
+    height: 70px;
+    padding-left: 32px;
+    overflow: hidden;
+}
+.contactB1-text p{
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-weight: 700;
+    color:#2fdab8;
+    margin-bottom: 5px;
+}
+.contactB1-text span{
+    font-family: "微软雅黑";
+    color: #545454;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+.contactB1-text a:link{
+    color:#545454
+}
+.contactB1-text a:hover{
+    color:#545454
+}
+.contactB1-text a:visited{
+    color:#545454
+}
+.contactB2{
+    padding: 80px 42px;
+    width: 420px;
+    background-color: #181919;
+    float: right;
+}
+.contact-from{
+    font-family: "微软雅黑";
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 32px;
+}   
+.contact-from span{
+    margin-left: 13px;
+     font-weight: 300;
+}
+.contact-from-name{
+    padding: 15px 7px;
+    width: 406px;
+    height: 20px;
+    border-bottom: 1px solid whitesmoke;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.contact-from-name :focus{
+    border: 0px;
+}
+
+.contact-from-email{
+    padding: 15px 7px;
+    width: 406px;
+    height: 20px;
+    border-bottom: 1px solid whitesmoke;
+    color: grey;
+    margin-bottom: 15px;
+}
+.contact-from-subject{
+    padding: 15px 7px;
+    width: 406px;
+    height: 20px;
+    border-bottom: 1px solid whitesmoke;
+    color: grey;
+    margin-bottom: 15px;
+}
+.contact-from-message{
+    padding: 15px 7px;
+    width: 406px;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    color: grey;
+    margin-bottom: 25px;
+}
+.contact-from-send{
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    background-color:#2fdab8; 
+}
+.contactB1-share{
+    margin-top:48px;    
+    height: 30px;
+}
+
+
+.contactB1-share-word{
+    float: left;
+}
+.contactB1-share-facebook{
+    width: 30px;
+    height: 30px;
+    background-color: #3b5998;
+    margin-left: 20px; 
+    text-align: center;
+    float: left;
+    color: white;
+    line-height: 30px;
+}
+.contactB1-share-Twitter{
+    width: 30px;
+    height: 30px;
+    background-color: #00acee;
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    line-height: 30px;
+}
+.contactB1-share-ins{
+    width: 30px;
+    height: 30px;
+    background-color: #f77737;
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    line-height: 30px;
+}
+.contactB1-share-link{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: #bd081c;
+    margin-left: 20px;
+    float: left;
+    color: white;
+    line-height: 30px;
+}
